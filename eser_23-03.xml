@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+    Filename: esercizio2.xml
+    Author: Mattia Sebastiano Lacanna
+    Date: 24-04-2020
+    Errore validazione: eser_23-03.xml:10: parser error : Opening and ending tag mismatch: sic line 9 and choice
+      </choice>
+               ^
+	  eser_23-03.xml:11: parser error : Opening and ending tag mismatch: choice line 8 and sic
+      </sic>
+            ^
+	Correzione: ho corretto l'annidamento dell'elemento 'sic'
+-->
+
+<body>
+    <choice>
+        <sic>Testo 1
+			<ele>elemento figlio di sic</ele>
+        </sic>
+        <sic2>Testo 2 fratello di sic</sic2>
+    </choice>
+</body>
