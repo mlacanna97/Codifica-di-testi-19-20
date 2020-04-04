@@ -1,0 +1,9 @@
+<!--
+    Filename: esercizio3.xml
+    Author: Mattia Sebastiano Lacanna
+    Date: 01-04-2020
+-->
+<!ELEMENT TEI(header, facsimile?, text+)>
+<!ELEMENT header(#PCDATA)>
+<!ELEMENT facsimile(#PCDATA)>
+<!ELEMENT text(#PCDATA)> 

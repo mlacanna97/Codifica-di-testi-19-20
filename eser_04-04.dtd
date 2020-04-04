@@ -1,0 +1,14 @@
+<!--
+    Filename: esercizio4.xml
+    Author: Mattia Sebastiano Lacanna
+    Date: 04-04-2020
+-->
+<!ELEMENT TEI(header, facsimile?, text+)>
+<!ELEMENT header(#PCDATA)>
+<!ELEMENT facsimile(#PCDATA)>
+<!ELEMENT text(#PCDATA | seg)>
+<!ELEMENT seg(#PCDATA)>
+
+<!ATTLIST header type CDATA "intestazione" #FIXED lang NMTOKEN #IMPLIED>
+<!ATTLIST facsimile source #REQUIRED ref IDREFS #IMPLIED>
+<!ATTLIST text id ID #REQUIRED type CDATA #IMPLIED>
