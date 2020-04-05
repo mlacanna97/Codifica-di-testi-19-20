@@ -1,0 +1,5 @@
+<!ELEMENT radice (#PCDATA | figlio | signed)*>
+<!ELEMENT figlio (#PCDATA)>
+<!ELEMENT signed (#PCDATA)>
+<!ATTLIST figlio nome CDATA #IMPLIED>
+

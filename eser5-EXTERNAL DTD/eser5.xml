@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE radice SYSTEM "eser5.dtd">
+
+<radice>
+  <figlio nome="mattia"> contenuto testuale </figlio>
+</radice>
