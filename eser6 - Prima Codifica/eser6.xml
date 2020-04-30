@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+      
+        <fileDesc>
+          
+            <titleStmt>
+                  <title>La fabbrica: estratto elettronico primo capitolo</title>
+                  <author>Joanne Ramos</author>
+            </titleStmt>
+            <publicationStmt>
+				  <publisher>Unipi</publisher>
+                  <date>2020-30-04</date>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                  <title>La fabbrica</title>
+                  <author>Joanne Ramos</author>
+                  <publisher>Ponte alle Grazie</publisher>
+                  <date>2020</date>
+                </bibl>
+            </sourceDesc>
+        
+        </fileDesc>
+          
+    </teiHeader>
+    
+    <text>
+          <body>
+                <div type="estrattoC1">
+                      <head>JANE</head>
+                      
+                      <p>
+                        Il pronto soccorso è un calvario. Troppa gente, un assordante frastuono di voci. 
+                        Jane è sudata: fuori fa caldo, ha camminato a lungo per arrivare dalla metropolitana.
+                        All’ingresso si ferma, paralizzata dal rumore, dalle luci e dalla ressa. 
+                        D’istinto, con una mano copre Amalia, ancora addormentata sul suo petto.
+                      </p>
+                      
+                      <p>
+                        Ate è qui da qualche parte. Jane si avventura nella sala d’attesa. Vede una figura che somiglia a sua cugina. È vestita di bianco – Ate avrà l’uniforme da infermiera – ma è americana, e troppo giovane.
+                        Jane studia la gente seduta e cerca Ate fila per fila, sforzandosi di controllare l’ansia. Ate le dice sempre che si preoccupa troppo, prima ancora di sapere che qualcosa non va. E sua cugina non è un tipo cagionevole.
+                        L’estate scorsa non si è nemmeno buscata il virus intestinale che ha messo in ginocchio l’intero dormitorio.
+                        Sebbene parecchie compagne avessero la metà dei suoi anni e fossero quasi tutte molto più giovani, era stata lei a rimetterle in sesto, portando il tè allo zenzero ai letti a castello e lavando i vestiti macchiati.
+                        Jane osserva la nuca di un’altra donna: capelli neri striati d’argento. Si avvicina, fiduciosa ma non del tutto convinta, perché dall’inclinazione della testa sembra che stia dormendo, e Ate non dormirebbe mai qui, sotto queste luci abbaglianti e in mezzo a tanti sconosciuti.
+                        Come volevasi dimostrare. 
+                      </p>
+                      
+                      <p>
+                        Non è Ate, sembra messicana. È bassa, come la cugina di Jane, e dorme con le gambe divaricate e la bocca aperta. Come se fosse nell’intimità di casa sua: Jane immagina la voce schifata di Ate.
+                        <q>«Sto cercando Evelyn Arroyo»</q>
+                        dice alla donna dall’aria seccata all’accettazione.
+                        <q>«Sono sua cugina».</q>
+                        La donna alza gli occhi dal computer. Lo sguardo impaziente si scioglie in un sorriso quando vede Amalia nel marsupio.
+                        <q>«Quanto ha?»</q>
+                        <q>«Quattro settimane»</q>
+                        risponde Jane con il cuore traboccante d’orgoglio.
+                        <q>«È un amore»</q>
+                        fa la donna appena prima che un uomo con la testa calva e luccicante si infili davanti a Jane urlando che sua moglie sta aspettando da ore.
+                      </p>
+                      
+                      <p>
+                        La donna le dice di andare al triage. Jane non sa dove sia ma non glielo chiede, perché l’altra è alle prese con il tizio arrabbiato.
+                        Si avvia per un corridoio fiancheggiato da brandine. Controlla ogni letto in cerca di Ate, imbarazzata quando i degenti che non dormono la fissano negli occhi.
+                        Un anziano le dice qualcosa in spagnolo, sembra che chieda aiuto, lei risponde che non è un’infermiera e tira dritto. 
+                        In fondo al corridoio trova la cugina. È coperta da un lenzuolo, il volto contratto e duro sul cuscino morbido.
+                        Jane si rende conto di non averla mai vista addormentata, per quanto al dormitorio abbia il letto sopra il suo: Ate è sempre indaffarata, o è via per lavoro. Vederla immobile le fa paura.
+                      </p>
+                      
+                      <p>
+                        È svenuta a casa dei Carter, in Fifth Avenue, dove l’hanno assunta come baby nurse. Jane l’ha saputo da Dina, la governante dei Carter. La cosa non l’ha sorpresa più di tanto.
+                        È da mesi che sua cugina soffre di vertigini. Ate pensa sia per le pastiglie per la pressione, ma non si è mai fatta visitare, perché non ha un attimo di respiro fra un incarico e l’altro.
+                      </p>
+                                              
+                </div>
+                
+          </body>
+    </text>
+</TEI>
+
+
