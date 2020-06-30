@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<text>
+    file xml con validazione
+</text>
+<text />
+<!--
+correzione.xml:5: parser error : Extra content at the end of the document
+<text />
+^
+-->
+<!-- 
+    Il file dovrebbe essere
+        <?xml version="1.0" encoding="utf-8"?>
+        <text>
+            file  xml con validazione
+        </text>
+        
+    senza il tag della riga 5 ovvero <text />
+-->
+
