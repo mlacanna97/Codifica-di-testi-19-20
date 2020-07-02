@@ -1,0 +1,132 @@
+body{
+  margin: 0;
+      background-color: rgb(240,240,240);
+      font-family: monospace;
+}
+
+#home{
+      text-align: center;
+      color: rgb(100,100,100);
+        background-color: white;
+      padding: 1%;
+      margin-bottom: 5%;
+}
+
+
+#home h1{
+  margin-bottom: 0%;
+}
+
+#primaCartolina,#secondaCartolina{
+  margin: 2% 5%;
+  color: black;
+}
+
+.grid-container {
+  margin: 0% 0% 10%;
+  display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 0fr 0fr 0fr;
+      gap: 1px 1px;
+      grid-template-areas:
+          "p1 img p2 ."
+          ". buttoni . .";
+}
+
+.img img{
+  width: 100%;
+}
+
+.p1 {
+  grid-area: p1;
+    margin: 0% auto;;
+}
+
+.altreInfo{
+  text-align: center;
+  background-color: white;
+  padding: 1%;
+}
+
+.button {
+  margin: 3% 7% 0% 0%;
+    background: rgb(240,240,240);
+    padding: 2%;
+    border: 2px solid black;
+    font-family: monospace;
+    width: 30%;
+}
+
+.img { grid-area: img; }
+
+.p2 { grid-area: p2;
+      width: 74%;
+      margin: 0% auto; }
+  
+#risultato1, #risultato2{
+  width: 100%;
+  margin: -20% 0%;
+  -webkit-transform: scale(0.7);
+-moz-transform: scale(0.7);
+-ms-transform: scale(0.7);
+-o-transform: scale(0.7);
+transform:  scale(0.7);
+}
+  
+.altreStampe{
+  background-color: white;
+  padding: 3%;
+}
+
+#descrizione1,#descrizione2{ 
+  margin: 3% 0%;
+}
+  
+#fronte1{    
+
+}
+  
+#retro1{
+
+}
+
+.p1R{    grid-area: p1;
+    margin: 0% auto;}
+
+.p2R{
+  grid-area: p2;
+    margin: 0% auto;
+    width: 91%;
+}
+  
+#container{
+  background-color: rgb(255,255,255);
+  width: 80%;
+  margin: 0%, 5;
+  
+}
+ h1{
+   font-size: 150%;
+ }
+
+.button:hover{
+  background: rgb(220,220,220);
+}
+
+.button:active{
+  background: rgb(40,40,40);
+  color: white;
+  border: 2px solid;
+}
+
+footer{
+  clear: both;
+    color: white;
+    background-color: rgb(40,40,40);
+    padding: 1%;
+    text-align: center;
+}
+  
+footer h1{
+      font-size: 130%;
+}

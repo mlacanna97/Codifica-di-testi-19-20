@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="transFinale.xsl" ?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- TITOLO NB: non corrisponde completamente alla voce TITOLO della tabella perché si tratta del titolo della edizione digitale -->
+                <title xml:id="titleCorpus">Codifica cartolina: 7694-224</title>
+                <!-- TRASCRITTORE nome e cognome-->
+                <respStmt>
+                    <resp>transcription by</resp>
+                    <name xml:id="MSL">Mattia Sebastiano Lacanna</name>
+                </respStmt>
+                
+                <!-- ENTE DI APPARTENENZA -->
+                <respStmt>
+                    <resp>Ente di Appartenenza</resp>
+                    <name type="comune" xml:id="SP">Comune della Spezia</name>
+                </respStmt>
+                
+            </titleStmt>
+            
+            <editionStmt>
+                <edition>Studenti di Storia Pubblica Digitale, Corso di Laurea Magistrale di Informatica Umanistica, <orgName xml:id="UNIPI">Università di <placeName>Pisa</placeName></orgName>
+                    <!-- COMPILAZIONE -->
+                    <date>2020</date>
+                </edition>
+                
+                <!-- NOME COMPILATORE -->
+                <respStmt>
+                    <resp>encoding by</resp>
+                    <name xml:id="TC">Tommaso Castagneto</name>
+                </respStmt>
+                
+                <!-- REFERENTE SCIENTIFICO sempre Nome Cognome, XY2 è sempre Tommaso Castagneto, XZ1 è chi interviene sulla schedatura già fatta per correzioni e aggiunte-->
+                <respStmt>
+                   
+                    <resp>Compilatore</resp>
+                    <name res="#TC">Tommaso Castagneto</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Responsabile scientifico</resp>
+                    <name xml:id="GP">Giacomo Paolicchi</name>
+                    <name xml:id="ES">Enrica Salvatori</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Funzionario responsabile</resp>
+                    <name xml:id="MR">Marzia Ratti</name>
+                </respStmt>
+            </editionStmt>
+            
+            <publicationStmt>
+                <orgName ref="#UNIPI">Università di <placeName>Pisa</placeName></orgName>
+
+                <availability>
+                    <p>Available under licence only</p>
+                </availability>
+                <date when="2020">2020</date>
+                <distributor>LabCD</distributor>
+                <address>
+                    <addrLine>Laboratorio di Cultura Digitale - <orgName ref="#UNIPI">Università di <placeName>Pisa</placeName></orgName></addrLine>
+                </address>
+            </publicationStmt>
+            
+            <!-- NOTE NB: mettere qui tutto ciò che non rientra nella codifica -->
+            <notesStmt>
+                <note>Sul retro troviamo stampato "Visto Rev.Stampa - Milano 1920"</note>
+            </notesStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    <!-- TITOLO Quello che si ricava dalla cartolina; Se un documento composto da immagini 
+                        non presenta un titolo o altri elementi considerabili come titolo, si formula un titolo sintetico 
+                        registrandolo entro parentesi quadre [Venere al bagno] ma indicando dentro la codifica come qui sotto esemplificato-->
+                    
+                    <title type="custom" resp="#ES">[Coppia su slittino]</title>
+                    <author></author>
+                    <!-- PRODUZIONE Chi ha prodotto / pubblicato la cartolina. Se non presente togliere il tag  -->
+                    <!-- LUOGO -->
+                    <!-- CRONOLOGIA, attenzione si riferisce solo alla data di stampa -->
+                    <date>1918</date>
+                </bibl>
+                <msDesc>
+                    <!-- COLLOCAZIONE SPECIFICA -->
+                    <!-- CODICE IDENTIFICATIVO -->
+                    <msIdentifier>
+                        <country>Italia</country>
+                        <settlement>La Spezia (SP)</settlement>
+                        <!-- COLLOCAZIONE SPECIFICA -->
+                        <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                        <!-- CODICE IDENTIFICATIVO -->
+                        <idno>7694_224_001/002</idno>
+                    </msIdentifier>
+                    
+                    <!-- Informazioni sul contenuto della cartolina -->
+                    <!-- DESCRIZIONE -->
+                    <msContents>
+                        <summary>Cartolina Artistica</summary>
+                        <textLang>Italiano</textLang>
+                    </msContents>
+                    
+                    
+                    
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>Cartolina</objectType>
+                                    <!-- MATERIALI -->
+                                    <material>Carta</material>
+                                    <!-- DIMENSIONE -->
+                                    <dimensions unit="cm">
+                                        <height>9</height>
+                                        <width>14</width>
+                                    </dimensions>
+                                    <stamp>francobollo - Regno d'Italia</stamp>
+                                </support>
+                              
+                                <condition>Buono</condition>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+            
+                    
+                </msDesc>
+                
+                <!-- NOMI -->
+                
+                <listPerson>
+                    
+                   
+                    <person xml:id="GC">
+                        <persName>
+                            <forename>Giovanni</forename>
+                            <surname>Coliola </surname>
+                        </persName>
+                        <sex>M</sex>
+                        <occupation n="1">[maggiore]</occupation>
+                        <note></note>
+                    </person>
+                    <person xml:id="OT">
+                        <persName>
+                            <forename>Oliva</forename>
+                            <surname>Turtura</surname>
+                        </persName>
+                        <sex>F</sex>
+                        <note></note>
+                    </person>
+                </listPerson>
+                
+                <listPlace>
+                    <place xml:id="RV">
+                        <placeName>Ravenna</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Ravenna</district>
+                        <district type="provincia">RV</district>
+                        <country key="N">IT</country>
+                        <note>...</note>
+                    </place>
+                </listPlace>
+                
+                <listOrg>
+                    <org xml:id="N3">
+                        <orgName type="N"></orgName>
+                        <desc>...</desc>
+                    </org>
+                </listOrg>
+                
+                
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GC"/>
+                    <placeName>...</placeName>
+                    <!-- DATA data di invio da timbro (postage) o da manoscritto (writing) -->
+                    <date type="postage" when="1918-04-29">1918-04-29</date>
+                    <date type="writing" when="1918-04-27">1918-04-27</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>
+                      <forename>Giovanni</forename>
+                      <surname>Coliola </surname>
+                    </persName>
+                    <placeName>
+                      <forename>Oliva</forename>
+                      <surname>Turtura</surname>
+                    </placeName>
+                </correspAction>
+                <correspContext>
+                    <p>
+                        <!-- previous -->
+                        <!-- forward -->
+                    </p>
+                </correspContext>
+            </correspDesc>
+            
+            <textClass>
+                <keywords scheme="">
+                    <!-- soggettario -->
+                    <!-- tipologia -->
+                    <!-- descrizione -->
+                    <term>Cartolina </term>
+                    <term>Cartolina Artistica </term>
+                    <term>Una coppia su di uno slittino in mezzo alla neve</term>
+                </keywords>
+            </textClass>
+            
+            <langUsage>
+                <language ident="it-IT">italiano</language>
+            </langUsage>
+        </profileDesc>
+        
+    </teiHeader>
+        <!-- DEFINIZIONE -->
+    
+    <facsimile>
+      
+        <surface n='2' xml:id="Fronte_cartolina1">
+            <graphic url='7694-224F.jpg' width='508px' height='814px' />
+        </surface>
+        <surface n='1' xml:id="Retro_cartolina1">
+            <graphic url='7694-224R.jpg' width='508px' height='814px' />
+            <zone ulx="64" uly="411" lrx="459" lry="450" rendition="Line" xml:id ="zona1"/>
+            <zone ulx="29" uly="499" lrx="234" lry="488" rendition="Line" xml:id ="zona2"/>
+            <zone ulx="17" uly="488" lrx="475" lry="510" rendition="Line" xml:id ="zona3"/>
+            <zone ulx="13" uly="514" lrx="499" lry="544" rendition="Line" xml:id ="zona4"/>
+            <zone ulx="15" uly="545" lrx="498" lry="573" rendition="Line" xml:id ="zona5"/>
+            <zone ulx="18" uly="580" lrx="493" lry="602" rendition="Line" xml:id ="zona6"/>
+            <zone ulx="19" uly="604" lrx="500" lry="629" rendition="Line" xml:id ="zona7"/>
+            <zone ulx="14" uly="626" lrx="494" lry="649" rendition="Line" xml:id ="zona8"/>
+            <zone ulx="24" uly="682" lrx="497" lry="682" rendition="Line" xml:id ="zona9"/>
+            <zone ulx="15" uly="682" lrx="497" lry="702" rendition="Line" xml:id ="zona10"/>
+            <zone ulx="7" uly="702" lrx="497" lry="725" rendition="Line" xml:id ="zona11"/>
+            <zone ulx="12" uly="725" lrx="503" lry="750" rendition="Line" xml:id ="zona12"/>
+            <zone ulx="24" uly="751" lrx="499" lry="773" rendition="Line" xml:id ="zona13"/>
+            <zone ulx="11" uly="771" lrx="492" lry="794" rendition="Line" xml:id ="zona14"/>
+            <zone ulx="39" uly="796" lrx="478" lry="811" rendition="Line" xml:id ="zona15"/>
+            <zone ulx="115" uly="348" lrx="83"  rendition="Line" xml:id ="zona16"/>
+            <zone ulx="103" uly="159" lrx="87" rendition="Line" xml:id ="zona17"/>
+            <zone ulx="191" uly="65" lrx="238" lry="408" rendition="Line" xml:id ="zona18"/>
+            <zone ulx="247" uly="71" lrx="294" lry="412" rendition="Line" xml:id ="zona19"/>
+            <zone ulx="301" uly="32" lrx="356" lry="419" rendition="Line" xml:id ="zona20"/>
+            <zone ulx="361" uly="34" lrx="488" lry="402" rendition="Line" xml:id ="zona21"/>
+            <zone ulx="161" uly="21" lrx="204" lry="91" rendition="Line" xml:id ="zona22"/>
+            <zone ulx="451" uly="417" lrx="479" lry="466" rendition="Line" xml:id ="zona23"/>
+            <zone ulx="435" uly="542" lrx="459" lry="746" rendition="Line" xml:id ="zona24"/>
+            <zone ulx="0" uly="294" lrx="61" lry="453" rendition="Line" xml:id ="zona25"/>
+            <zone ulx="149" uly="156" lrx="17" lry="78" rendition="Line" xml:id ="zona26"/>
+        </surface>
+    </facsimile>
+    
+    <text type="letter" xml:id="text7694-224" xml:lang="ita">
+        <body n ="224">      
+          <div type='left' facs='#Retro_cartolina1'>              
+              <opener facs="#zona1">
+                  <placeName>
+                      <settlement type="city"> 
+                          S. Felice
+                      </settlement> 
+                  </placeName>
+                  <date when='27/04/1918'>li 27/4/18 </date> 
+              </opener>
+
+              <p>
+                  <lb facs="#zona2"/>Olivia mia,
+                  <lb facs="#zona3"/>trovomi da tre giorni a letto
+                  <lb facs="#zona4"/>con febbre e forte catarro bronchiale,
+                  <lb facs="#zona5"/>domani tenterò di alzarmi.
+                  <lb facs="#zona6"/>Ormai la fase acuta è passata.
+                  <lb facs="#zona7"/>Qui in questo benedetto letto sfiora
+                  <lb facs="#zona8"/>cattiva aria per sere e forte anche
+                  <lb facs="#zona9"/>per molti altri, piove, piove, e piove
+                  <lb facs="#zona10"/>sempre. Mi sento tanto stanco
+                  <lb facs="#zona11"/>e avvilito, come non mai ho
+                  <lb facs="#zona12"/>la nostalgia di tante cose belle e 
+                  <lb facs="#zona13"/>il desiderio d'amore famigliare
+                  <lb facs="#zona14"/>d'un tuo sguardo, d'un tuo sospiro.
+              </p>
+
+              <closer>
+                    <salute>
+                        <lb facs="#zona15"/>Baci
+                    </salute>
+                    <signed>
+                        <lb facs="#zona15"/>tuo <addName type="nick">Giovannino.</addName>
+                    </signed>                   
+              </closer>
+              <div type="remaining">
+                  <ab>
+                      <stamp type="catalogue_id" facs="#zona22">224</stamp>
+                      <note>Codice identificativo della cartolina</note>
+                  </ab>
+              </div>     
+          </div>    
+          <div type='right' facs='#Retro_cartolinaR'>
+            
+            <ab>
+                <stamp type="postmark" facs="#zona16">
+                      <placeName><gap reason="faded" agent="time"/>San Felice sul Panaro</placeName> 
+                      <date when="29/04/1918">29.4.18</date>
+                </stamp>
+            </ab>
+            <ab>
+                <stamp type="postmark" facs="#zona17">
+                      <placeName><gap reason="faded" agent="time"/>San Felice sul Panaro</placeName> 
+                      <date when="29/04/1918">29.4.18</date>
+                </stamp>
+                <stamp type="postage" facs="#zona26"><hi rend="uppercase">poste italiane 5 centesimi</hi></stamp> 
+            </ab>
+            
+            <ab>
+                <address>
+                  <addrLine>
+                      <choice>
+                          <abbr>Gent</abbr>
+                          <expan>Gentile</expan>
+                      </choice>
+                      <choice>
+                          <abbr>Sign</abbr>
+                          <expan>Signora</expan>
+                        </choice>
+                  </addrLine>
+                    <lb facs="#zona18"/>
+                    <addrLine><persName ref="OT">Oliva Turtura</persName></addrLine>
+                    <lb facs="#zona20"/>
+                    <addrLine>Via Girolamo Rossi 58</addrLine>
+                    <lb facs="#zona21"/>
+                    <addrLine><hi rend="underline">Ravenna</hi></addrLine>
+                </address>  
+              </ab>
+              <div type="remaining">
+                  <ab>
+                      <stamp type="typography" facs="#zona24">Visto Rev.Stampa - Milano 1920</stamp>
+                      <note>Proprietà della cartolina.</note>
+                  </ab>
+                  <ab>
+                      <stamp type="typography" facs="#zona23">918/5</stamp>
+                      <note>Elementi di tipografia della cartolina</note>
+                  </ab>
+              </div>      
+          </div>      
+                              
+          <div type="fronte" facs="#Fronte_cartolina1">
+                      <p xml:id="figDesc1">
+                        L'immagine della cartolina raffigura un uomo e una donna su uno slittino. Entrambi hanno un vestiario da montagna,
+                        con relativi cappelli, guanti e sciarpe, il paesaggio è innevato e presenta una staccionata sulla parte destra dell'immagine. 
+                        Entrambi i soggetti sorridono. In basso a sinistra c'è la firma dell'artista.
+                      </p>
+                      <p xml:id="titleDesc1">Coppia su slittino</p>
+          </div>              
+        </body>
+    </text>
+
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- TITOLO NB: non corrisponde completamente alla voce TITOLO della tabella perché si tratta del titolo della edizione digitale -->
+                <title>Codifica cartolina: 7694-227</title>
+                <!-- TRASCRITTORE nome e cognome-->
+                <respStmt>
+                    <resp>transcription by</resp>
+                    <name ref="#MSL">Mattia Sebastiano Lacanna</name>
+                </respStmt>
+                
+                <!-- ENTE DI APPARTENENZA -->
+                <respStmt>
+                    <resp>Ente di Appartenenza</resp>
+                    <name type="comune" ref="#SP">Comune della Spezia</name>
+                </respStmt>
+                
+            </titleStmt>
+            
+            <editionStmt>
+                <edition>Studenti di Storia Pubblica Digitale, Corso di Laurea Magistrale di Informatica Umanistica, <orgName ref="#UNIPI">Università di<placeName>Pisa</placeName></orgName>
+                    <!-- COMPILAZIONE -->
+                    <date>2020</date>
+                </edition>
+                
+                <!-- NOME COMPILATORE -->
+                <respStmt>
+                    <resp>encoding by</resp>
+                    <name ref="#TC">Tommaso Castagneto</name>
+                </respStmt>
+                
+                <!-- REFERENTE SCIENTIFICO sempre Nome Cognome, XY2 è sempre Tommaso Castagneto, XZ1 è chi interviene sulla schedatura già fatta per correzioni e aggiunte-->
+                <respStmt>
+                   
+                    <resp>Compilatore</resp>
+                    <name ref="#TC">Tommaso Castagneto</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Responsabile scientifico</resp>
+                    <name ref="#GP">Giacomo Paolicchi</name>
+                    <name ref="#ES">Enrica Salvatori</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Funzionario responsabile</resp>
+                    <name ref="#MR">Marzia Ratti</name>
+                </respStmt>
+            </editionStmt>
+            
+            <publicationStmt>
+              <orgName ref="#UNIPI">Università di<placeName>Pisa</placeName></orgName>
+                <availability>
+                    <p>Available under licence only</p>
+                </availability>
+                <date when="2020">2020</date>
+                <distributor>LabCD</distributor>
+                <address>
+                    <addrLine>Laboratorio di Cultura Digitale - <orgName ref="#UNIPI">Università di  <placeName>Pisa</placeName></orgName></addrLine>
+                    <addrLine>Pisa</addrLine>
+                </address>
+            </publicationStmt>
+            
+            <!-- NOTE NB: mettere qui tutto ciò che non rientra nella codifica -->
+            <notesStmt>
+                <note>Sul retro troviamo due stampe: "Copyright (Prop. Artist. Riservata)" e "Serie N 870 - V. Revis. Stampa N 2614"</note>
+            </notesStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    <!-- TITOLO Quello che si ricava dalla cartolina; Se un documento composto da immagini 
+                        non presenta un titolo o altri elementi considerabili come titolo, si formula un titolo sintetico 
+                        registrandolo entro parentesi quadre [Venere al bagno] ma indicando dentro la codifica come qui sotto esemplificato-->
+                    
+                    <title type="custom" resp="#ES">[Donna con cavallo]</title>
+                    <author></author>
+                    <!-- PRODUZIONE Chi ha prodotto / pubblicato la cartolina. Se non presente togliere il tag  -->
+                    <!-- LUOGO -->
+                    <!-- CRONOLOGIA, attenzione si riferisce solo alla data di stampa -->
+                    <date>1918</date>
+                </bibl>
+                <msDesc>
+                    <!-- COLLOCAZIONE SPECIFICA -->
+                    <!-- CODICE IDENTIFICATIVO -->
+                    <msIdentifier>
+                        <country>Italia</country>
+                        <settlement>La Spezia (SP)</settlement>
+                        <!-- COLLOCAZIONE SPECIFICA -->
+                        <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                        <!-- CODICE IDENTIFICATIVO -->
+                        <idno>7694_227_001/002</idno>
+                    </msIdentifier>
+                    
+                    <!-- Informazioni sul contenuto della cartolina -->
+                    <!-- DESCRIZIONE -->
+                    <msContents>
+                        <summary>Cartolina Artistica</summary>
+                        <textLang>Italiano</textLang>
+                    </msContents>
+                    
+                    
+                    
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>Cartolina</objectType>
+                                    <!-- MATERIALI -->
+                                    <material>Carta</material>
+                                    <!-- DIMENSIONE -->
+                                    <dimensions unit="cm">
+                                        <height>9</height>
+                                        <width>14</width>
+                                    </dimensions>
+                                    <stamp>francobollo - Regno d'Italia</stamp>
+                                </support>
+
+                                <condition>Buono</condition>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+            
+                    
+                </msDesc>
+                
+                <!-- NOMI -->
+                
+                <listPerson>
+                    
+                   
+                    <person ref="#GC">
+                        <persName>
+                            <forename>Giovanni</forename>
+                            <surname>Coliola </surname>
+                        </persName>
+                        <sex>M</sex>
+                        <occupation n="1">[maggiore]</occupation>
+                        <note></note>
+                    </person>
+                    <person ref="#OT">
+                        <persName>
+                            <forename>Oliva</forename>
+                            <surname>Turtura</surname>
+                        </persName>
+                        <sex>F</sex>
+                        <note></note>
+                    </person>
+                </listPerson>
+                
+                <listPlace>
+                    <place ref="#RV">
+                        <placeName>Ravenna</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Ravenna</district>
+                        <district type="provincia">RV</district>
+                        <country key="N">IT</country>
+                        <note>...</note>
+                    </place>
+                </listPlace>
+                
+                
+                
+                
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GC"/>
+                    <placeName>...</placeName>
+                    <!-- DATA data di invio da timbro (postage) o da manoscritto (writing) -->
+                    <date type="postage" when="1918-03-27">1918-03-27</date>
+                    <date type="writing" when="1918-03-26">1918-03-26</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>
+                      <forename>Giovanni</forename>
+                      <surname>Coliola </surname>
+                    </persName>
+                    <placeName>
+                      <forename>Oliva</forename>
+                      <surname>Turtura</surname>
+                    </placeName>
+                </correspAction>
+                <correspContext>
+                    <p>
+                        <!-- previous -->
+                        <!-- forward -->
+                    </p>
+                </correspContext>
+            </correspDesc>
+            
+            <textClass>
+                <keywords scheme="">
+                    <!-- soggettario -->
+                    <!-- tipologia -->
+                    <!-- descrizione -->
+                    <term>Cartolina </term>
+                    <term>Cartolina Artistica </term>
+                    <term>Donna con cavallo</term>
+                </keywords>
+            </textClass>
+            
+            <langUsage>
+                <language ident="it-IT">italiano</language>
+            </langUsage>
+        </profileDesc>
+        
+    </teiHeader>
+      
+    <facsimile>
+        <surface xml:id="Retro_cartolina2">
+          <graphic url='7694-227R.jpg' width='533px' height='828px' />
+          <zone ulx="514" uly="428" lrx="92" lry="510" rendition="Line" xml:id ="zona1_"/>
+          <zone ulx="96" uly="530" lrx="520" lry="592" rendition="Line" xml:id ="zona2_"/>
+          <zone ulx="36" uly="611" lrx="441" lry="679" rendition="Line" xml:id ="zona3_"/>
+          <zone ulx="35" uly="682" lrx="270" lry="730" rendition="Line" xml:id ="zona4_"/>
+          <zone ulx="468" uly="692" lrx="108" lry="796" rendition="Line" xml:id ="zona5_"/>
+          <zone ulx="56" uly="736" lrx="108" lry="786" rendition="Line" xml:id ="zona6_"/>
+          <zone ulx="475" uly="774" lrx="508" lry="494" rendition="Line" xml:id ="zona7_"/>
+          <zone ulx="76" uly="563" lrx="103" lry="725" rendition="Line" xml:id ="zona8_"/>
+          <zone ulx="92" uly="314" lrx="86" rendition="Line" xml:id ="zona9_"/>
+          <zone ulx="109" uly="103" lrx="86" rendition="Line" xml:id ="zona10_"/>
+          <zone ulx="52" uly="538" lrx="93" lry="291" rendition="Line" xml:id ="zona11_"/>
+          <zone ulx="34" uly="483" lrx="0" lry="387" rendition="Line" xml:id ="zona12_"/>
+          <zone ulx="216" uly="415" lrx="142" lry="143" rendition="Line" xml:id ="zona13_"/>
+          <zone ulx="286" uly="412" lrx="222" lry="27" rendition="Line" xml:id ="zona14_"/>
+          <zone ulx="351" uly="406" lrx="288" lry="9" rendition="Line" xml:id ="zona15_"/>
+          <zone ulx="509" uly="397" lrx="367" lry="20" rendition="Line" xml:id ="zona16_"/>
+          <zone ulx="22" uly="62" lrx="124" lry="202" rendition="Line" xml:id ="zona17_"/>
+        </surface>
+        
+        <surface xml:id="Fronte_cartolina2">
+            <graphic url='7694-227F.jpg' width='532px' height='830px' />
+        </surface>
+    </facsimile>
+    
+    <text type="letter" xml:id="text7694-227" xml:lang="ita">
+        <body>      
+          <div type='left' facs='#Retro_cartolina2'>              
+              <opener facs="#zona1_">
+                  <placeName>
+                      <settlement type="city"> 
+                          Formigine
+                      </settlement> 
+                  </placeName>
+                  <date when='26/03/1918'>26/3/18</date> 
+              </opener>
+
+              <p>
+                <lb facs="#zona2_"/>Auguri fervidissimi per
+                <lb facs="#zona3_"/>la prossima Pasqua
+                <lb facs="#zona4_"/>lontani...
+              </p>
+              <closer>
+                  <salute>
+                    <signed>
+                      <lb facs="#zona5_"/>tuo <hi rend="underline"><addName type="nick">Giovannino.</addName></hi>
+                    </signed>
+                  </salute>                   
+              </closer>
+              
+              <div type="remaining">
+                  <ab>
+                      <stamp type="catalogue_id" facs="#zona12_">227</stamp>
+                      <note>Codice identificativo della cartolina</note>
+                  </ab>
+                  <ab>
+                      <stamp type="typography" facs="#zona7_">Serie N 870 - V. Revis. Stampa N 2614</stamp>
+                      <note>Proprietà della cartolina.</note>
+                  </ab>
+                  <ab>
+                      <stamp type="typography" facs="#zona6_">IICI</stamp>
+                      <note>Istituto Internazionale Cooperativa Intellettuale</note>
+                  </ab>
+                  <ab>
+                      <stamp type="typography" facs="#zona11_">POST-CARD</stamp>
+                      <note>Cartolina</note>
+                  </ab>
+              </div>   
+          </div>    
+          <div type='right' facs='#Retro_cartolina2'>
+            
+            <ab>
+                <stamp type="postmark" facs="#zona9_">
+                      <placeName><gap reason="faded" agent="time"/>Formigine Modena</placeName> 
+                      <date when="26/03/1918">26.MAR.18</date>
+                </stamp>
+            </ab>
+            <ab>
+                <stamp type="postmark" facs="#zona10_">
+                      <placeName><gap reason="faded" agent="time"/>Formigine Modena</placeName> 
+                      <date when="27/03/1918">27.MAR.18</date>
+                </stamp>
+                <stamp type="postage" facs="#zona17_"><hi rend="uppercase">poste italiane 5 centesimi</hi></stamp> 
+            </ab>
+            
+            <ab>
+                <address>
+                  <addrLine>
+                      <choice>
+                          <abbr>Gent</abbr>
+                          <expan>Gentile</expan>
+                      </choice>
+                      <choice>
+                          <abbr>Sign</abbr>
+                          <expan>Signora</expan>
+                        </choice>
+                  </addrLine>
+                    <lb facs="#zona14_"/>
+                    <addrLine><persName ref="OT">Oliva Turtura</persName></addrLine>
+                    <lb facs="#zona15_"/>
+                    <addrLine>Via Girolamo Rossi 58</addrLine>
+                    <lb facs="#zona16_"/>
+                    <addrLine><hi rend="underline">Ravenna</hi></addrLine>
+                </address>  
+              </ab>
+          </div>
+          
+          <div type="fronte" facs="#Fronte_cartolina2">
+                      <p xml:id="figDesc2">
+                        L'immagine della cartolina raffigura una donna con un cavallo. La forma della pittura è ovale con un bordo colmo di palline nere, inoltre
+                        la donna accarezza il cavallo per risultare in posa nel dipinto, lo sfondo è di colore marrone chiaro. 
+                        In basso a sinistra c'è la firma dell'artista.
+                      </p>
+                      <p xml:id="titleDesc2">Donna con cavallo</p>
+          </div>               
+        </body>
+    </text>
+</TEI>
